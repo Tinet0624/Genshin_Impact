@@ -19,4 +19,4 @@ picture here
 <br>
 I hope to work more on this in the future and flash it out some more.<br>
 To see the working model of it please visit the link:<br>
-website link here
+https://tinet0624.github.io/Genshin_Impact/Main.html

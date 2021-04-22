@@ -17,8 +17,8 @@ and to be able to use a library for a gallery:<br>
 <br>
 ![Mobile Layout](ReadMePictures/MobileSize.jpg)
 <br>
-I hope to work more on this in the future and flash it out some more.<br>
 To see the working model of it please visit the link:<br>
 https://tinet0624.github.io/Genshin_Impact/Main.html
 <br>
+I hope to work more on this in the future and flesh it out some more.<br>
 There is still much to improve upon. I look forwad to making it better!

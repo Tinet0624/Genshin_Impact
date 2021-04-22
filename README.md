@@ -11,11 +11,11 @@ particals in the background:<br>
 <br>
 the ability to change size when on mobile:<br>
 <br>
-![Fancy Gallery](ReadMePictures/Gallery.jpg)
+![Mobile Layout](ReadMePictures/MobileSize.jpg)
 <br>
 and to be able to use a library for a gallery:<br>
 <br>
-![Mobile Layout](ReadMePictures/MobileSize.jpg)
+![Fancy Gallery](ReadMePictures/Gallery.jpg)
 <br>
 To see the working model of it please visit the link:<br>
 https://tinet0624.github.io/Genshin_Impact/Main.html

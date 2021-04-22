@@ -3,7 +3,7 @@
 This website is one of my first projects I started. Im uploading it here so I know where I started. The end goal is to redo and refine the website with my new skills. <br>
 The main things I learned when makeing this website is the use of Flexbox in the layout: <br>
 <br>
-picture here
+![Layout example](ReadMePictures/HomePage.jpg)
 <br>
 particals in the background:<br>
 <br>

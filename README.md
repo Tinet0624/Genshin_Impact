@@ -15,7 +15,7 @@ the ability to change size when on mobile:<br>
 <br>
 and to be able to use a library for a gallery:<br>
 <br>
-![Mobile Layout](ReadMePictures/Mobile size.jpg)
+![Mobile Layout](ReadMePictures/MobileSize.jpg)
 <br>
 I hope to work more on this in the future and flash it out some more.<br>
 To see the working model of it please visit the link:<br>

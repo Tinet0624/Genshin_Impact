@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Images/Elemental_Icons/Dendro_Icon.png"/>
+    <link rel="stylesheet" type="text/css" href="/CSS/stackedCards.css"/>
+	<script src="/JavaS/stackedCards.min.js"></script>
+    <title>Dendro</title>
+</head>
+<body class="content_dendro">
+        <main>
+            <div class="stacked-cards">
+                <ul>
+                    <li>No Dendro Characters Yet</li>
+                </ul>
+            </div>
+            <script>
+                var stackedCard = new stackedCards({
+                selector: '.stacked-cards',
+                layout: "slide",
+                transformOrigin: "center",
+            });
+    
+            stackedCard.init();
+            </script>
+            <!--Java Script-->
+            <canvas id="projector">Your browser does not support the Canvas element.</canvas>
+            <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+            <script src="https://code.createjs.com/easeljs-0.7.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+            <script src="/JavaS/JS.js"></script>
+        </main>
+</body>
+</html>

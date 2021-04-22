@@ -1,0 +1,132 @@
+.stacked-cards {
+    position: relative;
+}
+.stacked-cards ul {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.stacked-cards li {
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0px #333;
+    list-style: none;
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    transition: 0.5s ease transform;
+}
+
+.stacked-cards li:after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.stacked-cards li.active:after {
+    display: none;
+}
+.stacked-cards li img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    z-index: 4;
+}
+.stacked-cards li.active {
+    cursor: default;
+    box-shadow: 0 5px 10px 0px #333;
+    transition: 0.5s ease transform;
+}
+/*other styling*/
+body{
+    background-color: rgb(39, 38, 38);
+    overflow: hidden;
+    text-align: center;
+    font-size: 10em;
+}
+.content{
+    color: purple;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.content_cyro{
+    color: rgb(38, 144, 231);
+    background-image: linear-gradient( 114.3deg,  rgba(49,75,90,1) 48.8%, rgba(3,155,193,1) 94.9% );
+}
+.content_pyro{
+    color: darkred;
+    background-image: radial-gradient( circle farthest-corner at -25.1% 53.5%,  rgba(252,175,23,1) 0%, rgba(242,101,34,1) 48.8%, rgba(133,0,88,1) 100.2% );
+}
+.content_geo{
+    color: Black;
+    background: rgb(255,188,0);
+    background: radial-gradient(circle, rgba(255,188,0,1) 0%, rgba(75,30,0,1) 87%, rgba(0,0,0,1) 100%);
+}
+.content_electro{
+    color: purple;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(111,111,219,1) 0%, rgba(182,109,246,1) 72.4% );
+
+}
+.content_animo{
+    color: rgb(3, 58, 71);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(39,199,171,1) 0%, rgba(70,143,197,1) 90% );
+
+}
+.content_hydro{
+    color: rgb(38, 144, 231);
+    background-image: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgba(23,25,95,1) 71.5% );
+
+}
+.content_dendro{
+    color: rgb(2, 32, 16);
+    background-image: radial-gradient( circle farthest-corner at 0.4% 34.3%,  rgba(65,199,58,1) 1.3%, rgba(28,86,25,1) 90% );
+
+}
+.content_dendro li{
+    background-color: green;
+}
+/*particles*/
+#projector {
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  /*resize to phone*/
+  @media screen and (max-width: 575px) {
+    body{
+        text-align: center;
+        font-size: 3em;
+    }
+    main{
+        flex-direction: column;
+    }
+    .left{
+        order: 2;
+        flex-direction: column;
+    }
+    .icon{
+        height: 7vmax;
+    }
+    .stacked-cards ul {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    /* #projector{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width:100vw;
+        height:100vh; 
+    } */
+} 

@@ -1,0 +1,85 @@
+*{ /*css reset*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Scroll Bar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg, #06dde136, #e040f54f
+    );
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(39, 38, 38);
+}
+.container{
+    text-align: center;
+    font-size: 2em;
+}
+main{
+    display: flex;
+    height: 100vh;
+    min-height: 0;
+}
+iframe{
+    width:100%; 
+	height:100%; 
+	padding:0px; 
+	margin:0px;
+	overflow: hidden;
+    order: 2;
+    flex: 3;
+    overflow: auto;
+}
+.content{
+    color: purple;
+    border: 5px solid purple;
+	width:100%; 
+	height:100%; 
+	padding:0px; 
+	margin:0px;
+	overflow: hidden;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	background-attachment: fixed;
+    order: 2;
+    flex: 3;
+    overflow: auto;
+}
+
+.icon{
+    height: 8vmax;
+}
+.thumb{
+    height: 100px;
+}
+.skills{
+    height: 30vmax;
+}
+/* Particles*/
+#projector {
+  position: absolute; 
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+} 
+
+  /*resize to phone*/
+@media screen and (max-width: 575px) {
+    main{
+        flex-direction: column;
+    }
+    .left{
+        order: 2;
+        flex-direction: column;
+    }
+    .icon{
+        height: 7vmax;
+    }
+}

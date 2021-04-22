@@ -1,0 +1,144 @@
+*{ /*css reset*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Scroll Bar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg, #06dde136, #e040f54f
+    );
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(39, 38, 38);
+}
+.container{
+    text-align: center;
+}
+main{
+    display: flex;
+    height: 80vh;
+    min-height: 0;
+}
+
+/* Navigation*/
+nav{
+    color: rgb(245, 49, 82);
+    background: pink;
+    border: 5px solid rgb(245, 49, 82);
+    display: flex;
+    flex: 1;
+    height: 10vh;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(245, 49, 82); 
+    transition: all 0.2s;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+nav a:hover{
+    background: #2196F3;
+    color: white;
+}
+iframe{
+    width:100%; 
+	height:100%; 
+	padding:0px; 
+	margin:0px;
+	overflow: hidden;
+    order: 2;
+    flex: 3;
+    overflow: auto;
+}
+/*content*/
+.content{
+    color: purple;
+    border: 5px solid purple;
+	width:100%; 
+	height:100%; 
+	padding:0px; 
+	margin:0px;
+	overflow: hidden;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	background-attachment: fixed;
+    order: 2;
+    flex: 3;
+    overflow: auto;
+}
+.icon{
+    height: 8vmax;
+}
+#mainImg{
+    height: 50vh;
+}
+#thumbs{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.thumb{
+    height: 9vmax;
+    padding: 5px;
+    cursor: pointer;
+}
+.skills{
+    height: 30vmax;
+}
+.left{
+    color: blue;
+    background: lightblue;
+    border: 5px solid blue;
+    order: 1;
+    flex: .3;
+    overflow: auto;
+}
+.right{
+    color: teal;
+    background: rgb(167, 250, 250);
+    border: 5px solid teal;
+    order: 3;
+    flex: 1;
+    overflow: auto;
+}
+.footer{
+    height: 10vh;
+    color: rgb(245, 49, 82);
+    background: pink;
+    border: 5px solid rgb(245, 49, 82);
+}
+/*table styles*/
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    background-color: pink;
+  }
+
+@media screen and (max-width: 575px) {
+    main{
+        flex-direction: column;
+    }
+    .left{
+        order: 2;
+        flex-direction: column;
+    }
+    .icon{
+        height: 7vmax;
+    }
+    .skills{
+        height: 30vmax;
+        width: 80vw;
+    }
+    #mainImg{
+        width: 90vw;
+        height: 30vh;
+    }
+}
